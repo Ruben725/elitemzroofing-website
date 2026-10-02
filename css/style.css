@@ -66,12 +66,29 @@ body{
 }
 
 
-img{
+.home{
     width: min(350px, 90%);
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 15px;
+}
+
+.services-pics{
+    width: min(650px, 90%);
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.prep-vid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     border-radius: 15px;
 }
 
@@ -113,8 +130,19 @@ img{
         line-height: 1.5;
     }
 
-    img{
+    .home{
         width: 90%;
         max-width: 350px;
     }
+
+    .services-pics{
+      width: 90%;
+      max-width: 650px;
+    }
+
+    .prep-vid{
+        width: 90%;
+        max-width: 650px;
+    }
+
 }
