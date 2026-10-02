@@ -88,8 +88,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
     border-radius: 15px;
+}
+
+
+.prep-vid video{
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 15px;
+    display: block;
 }
 
 
@@ -141,8 +153,13 @@ body{
     }
 
     .prep-vid{
-        width: 90%;
-        max-width: 650px;
+       min-height: auto;
+       padding: 10px;
+    }
+
+    .prep-vid video{
+        width: 100%;
+        max-width: 100%;
     }
 
 }
